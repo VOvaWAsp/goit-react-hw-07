@@ -4,7 +4,7 @@ import ContactList from './ContactList/ContactList';
 import SearchBox from './SearchBox/SearchBox';
 import { useEffect } from 'react';
 import { fetchContacts } from '../redux/operations';
-import { selectError, selectIsLoading } from '../redux/selectors';
+import { selectIsLoading } from '../redux/selectors';
 
 export default function App() {
   const dispatch = useDispatch();
